@@ -2,6 +2,9 @@
   "name": "swaaz",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +12,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@vercel/speed-insights": "^2.0.0",
     "next": "12.1.0",
     "nuka-carousel": "^5.0.9",
     "react": "17.0.2",
