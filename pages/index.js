@@ -1,6 +1,8 @@
 import CoverPage from "../components/CoverPage";
 import styled from 'styled-components';
 import AboutPage from "../components/AboutPage";
+import Experience from "../components/Experience";
+import Skills from "../components/Skills";
 import ProjectPage from "../components/ProjectPage";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -12,8 +14,8 @@ const Home = () => {
   return (
     <>
     <Head>
-        <meta charset="utf-8" />
-        <meta name="Description" CONTENT="Swasthik Shetty; A curious Full-Stack developer, who loves to learn and explore new technologies and share the knowledge back to the community." />
+        <meta charSet="utf-8" />
+        <meta name="description" content="Swasthik Shetty (Swaaz); Software Engineer II at Google building Go-based microservices for high-availability and disaster recovery infrastructure." />
         <title>swaaz</title>
         <meta name="robots" content="all"/>
          
@@ -23,6 +25,8 @@ const Home = () => {
       <Banner />
       <CoverPage />
       <AboutPage />
+      <Experience />
+      <Skills />
       <ClubsCommunities />
       <ProjectPage />
       <Contact />

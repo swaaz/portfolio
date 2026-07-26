@@ -10,9 +10,9 @@ const AboutPage = () => {
                     <SubTitle>Want to know me?</SubTitle>
                     <Content>
                         <ContentParagraph>
-                            I am <Highlighter>Swasthik Shetty</Highlighter>; A curious Full-Stack developer, who loves to learn and explore new technologies and share the knowledge back to the community. I love to contribute to and talk about the open source while spending most of my time freelancing.</ContentParagraph>
+                            Hi, I'm <Highlighter>Swasthik Shetty (Swaaz)</Highlighter> — a <Highlighter>Software Engineer II at Google</Highlighter>, bridging the gap between "code that works" and "code that scales." I write Go-based microservices that keep high-availability systems from falling over, and I've debugged my fair share of haunted legacy code along the way.</ContentParagraph>
                         <ContentParagraph>
-                            I am a final year Information Science Engineering student from Mangaluru, India. I am a <Highlighter>GitHub Campus Expert</Highlighter>; <Highlighter>Microsoft Learn Student Ambassador</Highlighter>, Lead of <Highlighter>Hack Club</Highlighter>, President of <Highlighter>Sahyadri Open-Source Community</Highlighter> and Community member of <Highlighter>Google Developer Student Club</Highlighter>. 
+                            Before Google, I was a full-stack builder at heart — shipping apps, chatbots, and a startup's entire backend. These days, when I'm not firefighting outages or automating disaster recovery, I'm mentoring engineers, contributing to open source, or hunting for the next good hackathon.
                         </ContentParagraph>
                     </Content>
                 </SectionCenter>
