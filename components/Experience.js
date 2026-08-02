@@ -170,8 +170,9 @@ const Dot = styled.div`
     }
 
     ${TimelineItem}:hover & {
-        background: ${({ theme }) => theme.colors.primary};
-        box-shadow: 0 0 0 2px ${({ theme }) => theme.colors.primary};
+        background: #111111;
+        box-shadow: 0 0 0 2px #111111;
+        transform: scale(1.15);
     }
 `
 

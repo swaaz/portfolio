@@ -103,3 +103,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Claude Code local tooling config
+.claude/
+
+# macOS
+.DS_Store
