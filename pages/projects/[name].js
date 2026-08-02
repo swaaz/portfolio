@@ -12,10 +12,23 @@ const ProjectDetails = ({ project }) => {
     return (
         <>
         <Head>
-            <meta charset="utf-8" />
-            <meta name="Description" CONTENT={`${project.description}`} />
+            <meta charSet="utf-8" />
+            <meta name="description" content={`${project.description}`} />
             <title>{project.name}</title>
             <meta name="robots" content="all"/>
+            <link rel="canonical" href={`https://www.swaaz.dev/projects/${project.slug}`} />
+
+            <meta property="og:type" content="website" />
+            <meta property="og:site_name" content="swaaz" />
+            <meta property="og:url" content={`https://www.swaaz.dev/projects/${project.slug}`} />
+            <meta property="og:title" content={`${project.name} — Swaaz`} />
+            <meta property="og:description" content={`${project.description}`} />
+            <meta property="og:image" content={`https://www.swaaz.dev${project.image}`} />
+
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:title" content={`${project.name} — Swaaz`} />
+            <meta name="twitter:description" content={`${project.description}`} />
+            <meta name="twitter:image" content={`https://www.swaaz.dev${project.image}`} />
         </Head>
         <Section>
             <Title>{project.name}</Title>

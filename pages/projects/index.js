@@ -21,10 +21,23 @@ const Projects = () => {
     return (
         <>
         <Head>
-            <meta charset="utf-8" />
-            <meta name="Description" CONTENT="List of all the cool projects that I have built so far" />
+            <meta charSet="utf-8" />
+            <meta name="description" content="List of all the cool projects that I have built so far" />
             <title>Projects</title>
             <meta name="robots" content="all"/>
+            <link rel="canonical" href="https://www.swaaz.dev/projects" />
+
+            <meta property="og:type" content="website" />
+            <meta property="og:site_name" content="swaaz" />
+            <meta property="og:url" content="https://www.swaaz.dev/projects" />
+            <meta property="og:title" content="Projects — Swaaz" />
+            <meta property="og:description" content="List of all the cool projects that I have built so far" />
+            <meta property="og:image" content="https://www.swaaz.dev/assets/images/swaaz.png" />
+
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:title" content="Projects — Swaaz" />
+            <meta name="twitter:description" content="List of all the cool projects that I have built so far" />
+            <meta name="twitter:image" content="https://www.swaaz.dev/assets/images/swaaz.png" />
         </Head>
         <Section>
             <Title>Projects</Title>
