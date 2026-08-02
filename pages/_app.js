@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import { ThemeProvider } from 'styled-components';
 import Script from "next/script";
 import { SpeedInsights } from "@vercel/speed-insights/react";
+import { Analytics } from "@vercel/analytics/react";
 import GoogleAnalytics from '../components/GoogleAnalytics';
 
 const theme = {
@@ -19,6 +20,7 @@ function MyApp({ Component, pageProps }) {
     </ThemeProvider>
     <GoogleAnalytics />
     <SpeedInsights />
+    <Analytics />
     </>
   )
 }
